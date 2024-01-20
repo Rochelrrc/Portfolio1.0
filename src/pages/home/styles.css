@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-prim: rgb(238, 21, 21);
+    --bg-second: rgba(0, 0, 0, 0.418);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.418);
+    backdrop-filter: blur(50px);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 20rem;
+    list-style: none;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    box-shadow: 1px;
+    margin: 0 2rem;
+
+}
+
+header h2 span {
+    color: var(--text-color-prim);
+}
+
+header ul a {
+    color: rgba(238, 4, 4, 0.767);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+header ul a:hover {
+    font-size: 1.1rem;
+    color: red;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30rem;
+
+
+}
+
+.apresentacao h1 span {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.apresentacao span {
+    color: var(--text-color-prim);
+}
+
+.apresentacao h1 {
+    color: white;
+}
+
+.apresentacao img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2rem;
+    width: 100%;
+    height: 30rem;
+
+}
+
+main p {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+
+.aboutMe img {
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+}
