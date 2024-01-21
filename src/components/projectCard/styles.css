@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-prim: rgb(238, 21, 21);
+    --bg-primary: #181818;
+    --bg-second: #484848;
+}
+
+.container-geral {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.container-individual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-second);
+    border-radius: 12px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.container-individual img {
+    width: 20rem;
+    height: 10rem;
+    padding: 5px 5px;
+}
+
+.descricao-projeto {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 0.5rem;
+}
+
+.descricao-projeto h3 {
+    color: var(--text-color-prim);
+    font-family: 'Roboto';
+    text-align: center;
+    box-shadow: 1px;
+    margin: 0 2rem;
+}
+
+.descricao-projeto h4 {
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    box-shadow: 1px;
+    margin: 0 2rem;
+}
+
+.descricao-projeto p {
+    color: #989898;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--text-color-prim);
+    color: white;
+}
+
+.btn-teste:hover {
+    scale: 1.1;
+    background-color: rgb(243, 11, 11);
+}
