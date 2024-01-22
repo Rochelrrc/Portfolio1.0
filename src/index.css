@@ -1,7 +1,12 @@
 :root {
   --text-color-prim: rgb(238, 21, 21);
   --bg-primary: #181818;
-  --bg-second: #484848;
+  --bg-second: #363A36;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 body {

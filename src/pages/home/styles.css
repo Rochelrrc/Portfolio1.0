@@ -1,13 +1,14 @@
+@import url('../../index.css');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --text-color-prim: rgb(238, 21, 21);
-    --bg-primary: #181818;
-    --bg-second: #202020;
+
+.geral {
+    height: 100vh;
 }
 
 header {
@@ -17,8 +18,11 @@ header {
 
     width: 100%;
     height: 5rem;
-    background-color: var(--bg-second);
-    backdrop-filter: blur(50px);
+    background-color: rgba(146, 146, 146, 0.1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgb(25, 25, 25, 0.5), 0 0 10px rgb(200, 200, 200, 0.7);
+    position: fixed;
+    top: 0;
 }
 
 header ul {
@@ -44,6 +48,11 @@ header h2 span {
     color: var(--text-color-prim);
 }
 
+
+main {
+    margin-top: 5rem;
+}
+
 navbar ul {
     display: flex;
     align-items: center;
@@ -59,7 +68,7 @@ navbar ul li {
 }
 
 navbar ul a {
-    color: rgba(238, 4, 4, 0.767);
+    color: white;
     width: 5rem;
     text-align: center;
     text-decoration: none;
@@ -80,7 +89,14 @@ navbar ul a:hover {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 25rem;
+    height: 30rem;
+
+}
+
+.apresentacao-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .apresentacao-text h1 span {
@@ -112,18 +128,56 @@ navbar ul a:hover {
     border-radius: 50%;
 }
 
-main {
+.container-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-btn>button {
+    width: 8.9375rem;
+    height: 2.625rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-curriculo {
+    background-color: var(--text-color-prim);
+    color: white;
+}
+
+.btn-curriculo:hover {
+    scale: 1.1;
+    background-color: red;
+}
+
+.btn-contato>a {
+    text-decoration: none;
+    color: var(--text-color-prim);
+}
+
+.btn-contato:hover {
+    scale: 1.1;
+}
+
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     width: 100%;
-    height: 20rem;
-    background-color: var(--bg-second);
+    height: 25rem;
+    padding-top: 5rem;
 }
 
-main p {
+.about p {
     display: flex;
     align-items: center;
     justify-content: center;
