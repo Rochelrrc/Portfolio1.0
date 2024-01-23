@@ -16,7 +16,7 @@ const dataProjeto = [
     {
         id: 2,
         nome: 'Harpia Login',
-        descricao: 'Projeto de login com uma página de "forgot password".',
+        descricao: 'Projeto de login com recuperação de senha.',
         tecnologias: 'React, React Router DOM',
         url: 'https://ish-harpia-desafio.netlify.app',
         Image: HarpiaImg
@@ -25,7 +25,7 @@ const dataProjeto = [
     {
         id: 3,
         nome: 'Player App',
-        descricao: 'Projeto estudantil de um player de músicas',
+        descricao: 'Projeto de um player de músicas',
         tecnologias: 'React',
         url: 'https://projetorrc-player.netlify.app',
         Image: PlayerImg
