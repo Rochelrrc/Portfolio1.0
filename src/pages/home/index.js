@@ -9,7 +9,7 @@ import ContatoCard from '../../components/contatosCard/contatosCard';
 export default function Home() {
 
     const openCurriculo = () => {
-        const arquivo = "/Curriculo-chel.pdf";
+        const arquivo = "/Curriculo-Rochel.pdf";
 
         window.open(arquivo, "_blank");
     };
