@@ -2,7 +2,6 @@ import './styles.css';
 import ImgLogo from '../../assets/Boy3d.jpg';
 import AboutIcon from '../../assets/AboutIcon.png';
 import CodeIcon from '../../assets/CodeIcon.png';
-import ContatoIcon from '../../assets/ContatoIcon.png'
 import ProjectCard from '../../components/projectCard/projectCard';
 import ContatoCard from '../../components/contatosCard/contatosCard';
 
@@ -15,6 +14,10 @@ export default function Home() {
         window.open(arquivo, "_blank");
     };
 
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <div className='geral'>
             <header >
@@ -22,7 +25,7 @@ export default function Home() {
 
                 <navbar>
                     <ul>
-                        <li> <a href='#'>Home</a> </li>
+                        <li> <a href='#topo' onClick={handleScrollToTop}>Home</a> </li>
                         <li> <a href='#sobreMim'>Sobre mim</a> </li>
                         <li> <a href='#projetos'>Projetos</a> </li>
                         <li> <a href='#sobreMim'>Contato</a> </li>
@@ -41,7 +44,7 @@ export default function Home() {
 
                         <div className='container-btn'>
                             <button className='btn-curriculo' onClick={openCurriculo}>Currículo</button>
-                            <button className='btn-contato' > <a href="https://wa.me/+5585987843322" target='_blank'>Entrar em contato</a></button>
+                            <button className='btn-contato' > <a href="https://wa.me/+5585987843322" target='_blank+'>Entrar em contato</a></button>
                         </div>
 
                     </div>

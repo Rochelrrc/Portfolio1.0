@@ -18,7 +18,7 @@ export default function ProjectCard() {
                         <p>{item.tecnologias}</p>
                     </div>
 
-                    <a href={item.url} target='_blank' className='btn-teste'> Link de teste </a>
+                    <a href={item.url} target='_blank+' className='btn-teste'> Link de teste </a>
 
                 </div>
 

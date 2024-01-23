@@ -9,7 +9,7 @@ export default function ContatoCard() {
 
                 <div className='container-individual-card'>
                     <div className='container-img-card'>
-                        <a href={item.url} target='_blank'><img src={item.icon} alt='imagem' /></a>
+                        <a href={item.url} target='_blank+'><img src={item.icon} alt='imagem' /></a>
                     </div>
 
                     <p>{item.text}</p>
