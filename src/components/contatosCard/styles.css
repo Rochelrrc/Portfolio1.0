@@ -1,1 +1,49 @@
 @import url('../../index.css');
+
+.card-container-geral {
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 1.5rem;
+}
+
+.container-individual-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.container-individual-card>p {
+    color: #989898;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap
+}
+
+.container-img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--bg-second);
+    border-radius: 50%;
+}
+
+
+
+
+.container-img-card a>img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
