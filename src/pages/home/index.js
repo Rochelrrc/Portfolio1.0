@@ -4,6 +4,7 @@ import AboutIcon from '../../assets/AboutIcon.png';
 import CodeIcon from '../../assets/CodeIcon.png';
 import ProjectCard from '../../components/projectCard/projectCard';
 import ContatoCard from '../../components/contatosCard/contatosCard';
+import NavSanduiche from '../../components/navSanduiche/navComponent';
 
 
 export default function Home() {
@@ -25,11 +26,14 @@ export default function Home() {
 
                 <navbar>
                     <ul>
-                        <li> <a href='#topo' onClick={handleScrollToTop}>Home</a> </li>
+                        <li> <a href='#home' onClick={handleScrollToTop}>Home</a> </li>
                         <li> <a href='#sobreMim'>Sobre mim</a> </li>
                         <li> <a href='#projetos'>Projetos</a> </li>
                         <li> <a href='#sobreMim'>Contato</a> </li>
+
                     </ul>
+
+                    <NavSanduiche />
                 </navbar>
 
             </header>
