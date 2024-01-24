@@ -223,3 +223,29 @@ navbar ul a:hover {
     padding-top: 3rem;
 
 }
+
+@media screen and (max-width:1300px) {
+
+    header h2 {
+        white-space: nowrap;
+    }
+
+
+
+    header ul {
+        display: none;
+    }
+
+
+
+    .about p {
+        align-self: center;
+        width: 100%;
+    }
+
+    .projetos {
+        height: 70rem;
+        gap: 10rem;
+
+    }
+}

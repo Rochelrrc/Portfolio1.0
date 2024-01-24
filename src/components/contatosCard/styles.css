@@ -40,8 +40,10 @@
     border-radius: 50%;
 }
 
-
-
+.container-img-card:hover {
+    scale: 1.1;
+    background-color: #a7a7a7;
+}
 
 .container-img-card a>img {
     width: 2.5rem;

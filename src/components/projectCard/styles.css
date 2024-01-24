@@ -89,3 +89,12 @@
     scale: 1.1;
     background-color: rgb(243, 11, 11);
 }
+
+
+@media screen and (max-width:1090px) {
+    .container-geral {
+        flex-direction: column;
+        gap: 1.5rem;
+        height: 50rem;
+    }
+}
