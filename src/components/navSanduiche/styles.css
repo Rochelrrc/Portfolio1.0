@@ -1,0 +1,13 @@
+.container-geral-sanduiche {
+    display: none;
+
+}
+
+@media screen and (max-width:1300px) {
+
+
+    .container-geral-sanduiche {
+        display: block;
+    }
+
+}

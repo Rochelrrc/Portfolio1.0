@@ -11,7 +11,7 @@ const dataContato = [
     },
     {
         icon: EmailIcon,
-        url: 'https://mail.google.com/mail/u/0/#inbox',
+        url: 'https://mail.google.com/mail/u/0/#inbox?compose=new',
         text: 'rochelrrc@gmail.com'
     },
     {
