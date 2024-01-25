@@ -241,11 +241,38 @@ navbar ul a:hover {
     .about p {
         align-self: center;
         width: 100%;
+        padding: 0 1rem;
     }
 
     .projetos {
         height: 70rem;
         gap: 10rem;
 
+    }
+}
+
+@media screen and (max-width:430px) {
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao-text h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .apresentacao img {
+        display: none;
+    }
+
+    .about {
+        height: 68rem;
+        padding: 0 1rem;
+    }
+
+    .projetos {
+        height: 80rem;
+        padding-top: 0.1rem;
     }
 }

@@ -98,3 +98,9 @@
         height: 50rem;
     }
 }
+
+@media screen and (max-width:430px) {
+    .container-geral {
+        padding-bottom: 1.5rem;
+    }
+}
