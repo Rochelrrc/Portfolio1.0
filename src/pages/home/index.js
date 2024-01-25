@@ -55,9 +55,9 @@ export default function Home() {
 
                 <section className='about' id='sobreMim'>
                     <h3 className='title'>Sobre mim <img src={AboutIcon} alt='imagem' /></h3>
-                    <p>Nordestino "nascido e crescido" em Fortaleza(Melhor cidade litorânea desse país) e que desde sempre foi apaixonado por tecnologia, música(aqui pense num caba eclético), filmes, jogos, praia e um bom esporte.<br></br><br></br>
+                    <p>Nordestino "nascido e crescido" em Fortaleza (Melhor cidade litorânea desse país) e que desde sempre foi apaixonado por tecnologia, música, filmes, jogos, praia e um bom esporte.<br></br><br></br>
                         Possuo um ano de experiência em desenvolvimento de software, com proficiência em HTML, CSS, typescript, frameworks JavaScript, além de experiência em APIs, bancos de dados,Git e muito mais na base do lema do "se não sei eu aprendo".<br></br><br></br>
-                        Em transição de carreira dei um salto de fé(pegou o código? rsrs) pro mundo da programação pela paixão antiga pela área, mas há um ano era militar da Escola de Sargento das Armas. Adquiri habilidades como planejamento estratégico, criatividade, autogestão, organização e dinamismo, características fundamentais para um desenvolvedor. Tenho a expectativa de contribuir positivamente para a sua equipe ou projeto.
+                        Em transição de carreira dei um salto de fé (pegou o código? rsrs) pro mundo da programação pela paixão que sempre tive pela área, mas, há um ano era militar da Escola de Sargento das Armas. Adquiri habilidades como planejamento estratégico, criatividade, autogestão, organização, liderança, trabalho em equipe e dinamismo, características fundamentais para um desenvolvedor. Tenho a expectativa de contribuir positivamente para a sua equipe ou projeto.
 
                     </p>
 
