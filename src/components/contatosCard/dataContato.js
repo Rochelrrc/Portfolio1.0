@@ -19,11 +19,11 @@ const dataContato = [
         url: 'https://github.com/Rochelrrc',
         text: '@Rochelrrc'
     },
-    {
-        icon: WhatsappIcon,
-        url: 'https://wa.me/+5585987843322',
-        text: 'Mande sua ideia!'
-    }
+    // {
+    //     icon: WhatsappIcon,
+    //     url: 'https://wa.me/+5585987843322',
+    //     text: 'Mande sua ideia!'
+    // }
 ];
 
 export default dataContato;
